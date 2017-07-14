@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtInstrucciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Instrucciones"
+        android:textSize="24sp"
+        android:paddingBottom="20dp"
+        android:textColor="#ffffff" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="insideInset"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <TableLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tableLayout1">
+            <TableRow
+                android:id="@+id/tableRow1">
+                <TextView
+                    android:id="@+id/txtRecursosComida"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cheese Steak Jimmy's"
+                    android:textSize="25sp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow2">
+                <TextView
+                    android:id="@+id/txtComida"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Comida"
+                    android:textSize="20sp" />
+            </TableRow>
+            <TableRow
+                android:paddingTop="25dp"
+                android:id="@+id/tableRow3">
+                <TextView
+                    android:id="@+id/txtRecursosMadera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lumberjack"
+                    android:textSize="25sp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow4">
+                <TextView
+                    android:id="@+id/txtMadera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Madera"
+                    android:textSize="20sp" />
+            </TableRow>
+            <TableRow
+                android:paddingTop="25dp"
+                android:id="@+id/tableRow5">
+                <TextView
+                    android:id="@+id/txtRecursosOro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Robin Hood"
+                    android:textSize="25sp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow6">
+                <TextView
+                    android:id="@+id/txtOro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Oro"
+                    android:textSize="20dp" />
+            </TableRow>
+            <TableRow
+                android:paddingTop="25dp"
+                android:id="@+id/tableRow7">
+                <TextView
+                    android:id="@+id/txtRecursosRoca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rock On"
+                    android:textSize="25sp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow8">
+                <TextView
+                    android:id="@+id/txtRoca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Roca"
+                    android:textSize="20dp" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

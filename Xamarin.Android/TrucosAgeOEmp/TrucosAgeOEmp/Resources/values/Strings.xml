@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Instrucciones">Presiona Enter en el juego e ingresa cualquiera de estos trucos.</string>
+    <string name="ApplicationName">Trucos Age of Empires 2 HD</string>
+  <string name="ButtonRecursos">Recursos</string>
+  <string name="ButtonMapa">Mapa</string>
+  <string name="ButtonPersonajes">Personajes</string>
+  <string name="ButtonJuego">Controla el juego</string>
+  <string name="txtMenu">Menú de trucos</string>
+  <string name="Comida">10,000 de comida</string>
+  <string name="Madera">10,000 de madera</string>
+  <string name="Oro">10,000 de oro</string>
+  <string name="Roca">10,000 de roca</string>
+</resources>
